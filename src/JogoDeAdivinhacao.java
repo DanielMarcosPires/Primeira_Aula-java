@@ -21,8 +21,8 @@ public class JogoDeAdivinhacao {
             numeroRandomico = new Random().nextInt(50);
             System.out.println("Tente adivinhar um numero de 1 a 50");
         }else if(dificuldade.equals("hard")){
-            numeroRandomico = new Random().nextInt(100);
-            System.out.println("Tente adivinhar um numero de 1 a 100");
+            numeroRandomico = new Random().nextInt(99);
+            System.out.println("Tente adivinhar um numero de 1 a 99");
         }
 
         System.out.println("A resposta é aleatorio:");
